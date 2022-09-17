@@ -20,5 +20,9 @@ namespace Manejador.TiendaGit
         {
             _tiendaAccesoDatos.EliminarProducto(idProducto);
         }
+        public void ModificarProducto(Productos producto)
+        {
+            _tiendaAccesoDatos.ModificarProducto(producto);
+        }
     }
 }
