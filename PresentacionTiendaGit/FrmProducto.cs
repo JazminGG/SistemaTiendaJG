@@ -126,5 +126,27 @@ namespace PresentacionTiendaGit
                 MessageBox.Show("Error al intentar actualizar");
             }
         }
+        private void EliminarProducto()
+        {
+            var idProducto = dgvProductos.CurrentRow.Cells["IdProducto"].Value.ToString();
+            _funciones.EliminarProducto(Convert.ToInt32(idProducto));
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Deseas eliminar este registro?", "Eliminar producto", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try
+                {
+                    EliminarProducto();
+                    LlenarProducto("");
+                    MessageBox.Show("Se elimino correctamente");
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Ocurrio un error al intentar eliminar");
+                }
+            }
+        }
     }
 }

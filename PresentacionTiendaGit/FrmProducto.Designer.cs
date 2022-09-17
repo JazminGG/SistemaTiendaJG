@@ -191,6 +191,7 @@ namespace PresentacionTiendaGit
             this.btnEliminar.TabIndex = 41;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -225,7 +226,7 @@ namespace PresentacionTiendaGit
             this.Controls.Add(this.dgvProductos);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProducto";
