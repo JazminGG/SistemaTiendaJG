@@ -15,6 +15,7 @@ namespace AccesoDatos.TiendaGit
         {
             con = new Conexion("localhost", "root", "", "Sistema", 3306);
         }
+
         
     }
 }
