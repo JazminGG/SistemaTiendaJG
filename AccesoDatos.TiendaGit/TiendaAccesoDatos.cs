@@ -23,6 +23,11 @@ namespace AccesoDatos.TiendaGit
             string consulta = string.Format("Delete from productos where IdProducto = {0}", idProducto);
             con.EjecutarConsulta(consulta);
         }
+        public void ModificarProducto(Productos producto)
+        {
+            string consulta = string.Format("update productos set Nombre = '{0}', Descripcion = '{1}', Precio = '{2}' where IdProducto = {3}", producto.Nombre, producto.Descripcion, producto.Precio, producto.IdProducto);
+            con.EjecutarConsulta(consulta);
+        }
         public List<Productos> GetProductos(string dato)
         {
             var ListProductos = new List<Productos>();
