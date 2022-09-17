@@ -1,0 +1,16 @@
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\PresentacionTiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\AccesoDatos.TiendaGit.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\Entidades.TiendaGit.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\Manejador.TiendaGit.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\MySql.Data.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\AccesoDatos.TiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\Entidades.TiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\Manejador.TiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.csproj.AssemblyReference.cache
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.FrmProducto.resources
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.csproj.GenerateResource.cache
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.csproj.CoreCompileInputs.cache
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.csproj.CopyComplete
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\bin\Debug\PresentacionTiendaGit.exe
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\PresentacionTiendaGit\obj\Debug\PresentacionTiendaGit.exe

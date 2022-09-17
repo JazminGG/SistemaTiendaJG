@@ -10,11 +10,11 @@ namespace AccesoDatos.TiendaGit
         Conexion con;
         public TiendaAccesoDatos()
         {
-            con = new Conexion("localhost", "root", "", "Sistema", 3306);
+            con = new Conexion("localhost", "root", "", "Tienda5to", 3306);
         }
         public void GuardarProducto(Productos producto)
         {
-            string consulta = string.Format("Insert into productos values({0},'{1}','{2}',{3})",
+            string consulta = string.Format("INSERT INTO productos VALUES({0},'{1}','{2}',{3})", 
                 producto.IdProducto, producto.Nombre, producto.Descripcion, producto.Precio);
             con.EjecutarConsulta(consulta);
         }
@@ -23,7 +23,7 @@ namespace AccesoDatos.TiendaGit
             var ListProductos = new List<Productos>();
             var ds = new DataSet();
 
-            string consulta = string.Format("select * from productos where nombre like '%{0}%'", dato);
+            string consulta = string.Format("select * from productos where Nombre like '%{0}%'", dato);
             ds = con.ObtenerDatos(consulta, "productos");
 
             var dt = new DataTable();
@@ -31,14 +31,14 @@ namespace AccesoDatos.TiendaGit
 
             foreach (DataRow row in dt.Rows)
             {
-                var Productos = new Productos
+                var productos = new Productos
                 {
                     IdProducto = Convert.ToInt32(row["IdProducto"]),
                     Nombre = row["Nombre"].ToString(),
                     Descripcion = row["Descripcion"].ToString(),
                     Precio = Convert.ToInt32(row["Precio"])
                 };
-                ListProductos.Add(Productos);
+                ListProductos.Add(productos);
             }
             return ListProductos;
         }

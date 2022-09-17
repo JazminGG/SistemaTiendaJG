@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{014ED788-BAE2-4F9A-8CB5-B5BBF1CC6640}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PresentacionTiendaGit</RootNamespace>
     <AssemblyName>PresentacionTiendaGit</AssemblyName>
@@ -29,6 +29,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +59,20 @@
     <EmbeddedResource Include="FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos.TiendaGit\AccesoDatos.TiendaGit.csproj">
+      <Project>{2a8186b8-9df7-4a44-aa5a-47faa5d7d6cc}</Project>
+      <Name>AccesoDatos.TiendaGit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades.TiendaGit\Entidades.TiendaGit.csproj">
+      <Project>{20e6e1e3-5a29-4a77-ada8-998070212349}</Project>
+      <Name>Entidades.TiendaGit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manejador.TiendaGit\Manejador.TiendaGit.csproj">
+      <Project>{268fcc8b-788e-47d2-8a2d-a0e462e44114}</Project>
+      <Name>Manejador.TiendaGit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

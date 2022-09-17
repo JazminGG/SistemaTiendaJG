@@ -1,0 +1,6 @@
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\bin\Debug\Entidades.TiendaGit.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\bin\Debug\Entidades.TiendaGit.pdb
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\obj\Debug\Entidades.TiendaGit.csproj.AssemblyReference.cache
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\obj\Debug\Entidades.TiendaGit.csproj.CoreCompileInputs.cache
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\obj\Debug\Entidades.TiendaGit.dll
+C:\Users\jazmi\source\repos\PresentacionTiendaGit\Entidades.TiendaGit\obj\Debug\Entidades.TiendaGit.pdb
