@@ -18,6 +18,11 @@ namespace AccesoDatos.TiendaGit
                 producto.IdProducto, producto.Nombre, producto.Descripcion, producto.Precio);
             con.EjecutarConsulta(consulta);
         }
+        public void EliminarProducto(int idProducto)
+        {
+            string consulta = string.Format("Delete from productos where IdProducto = {0}", idProducto);
+            con.EjecutarConsulta(consulta);
+        }
         public List<Productos> GetProductos(string dato)
         {
             var ListProductos = new List<Productos>();
