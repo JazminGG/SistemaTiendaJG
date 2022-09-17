@@ -73,7 +73,16 @@ namespace PresentacionTiendaGit
             LimpiarCuadros();
             ControlarCuadros(false);
         }
-
+        private void ModificarProducto()
+        {
+            _funciones.ModificarProducto(new Productos
+            {
+                IdProducto = Convert.ToInt32(txtIdProducto.Text),
+                Nombre = txtNombre.Text,
+                Descripcion = txtDescripcion.Text,
+                Precio= Convert.ToInt32(txtPrecio.Text)
+            });
+        }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
@@ -87,13 +96,13 @@ namespace PresentacionTiendaGit
                 }
                 else
                 {
-                    /*ModificarUsuario();
+                    ModificarProducto();
                     LlenarProducto("");
-                    MessageBox.Show("Se actualizo correctamente");*/
+                    MessageBox.Show("Se actualizo correctamente");
                 }
                 LimpiarCuadros();
                 ControlarCuadros(false);
-                //LlenarProducto("");
+                LlenarProducto("");
             }
             catch (Exception)
             {
